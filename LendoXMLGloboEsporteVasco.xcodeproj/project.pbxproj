@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7149481516B8969A00A50CD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7149481416B8969A00A50CD3 /* UIKit.framework */; };
+		7149481716B8969A00A50CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7149481616B8969A00A50CD3 /* Foundation.framework */; };
+		7149481916B8969A00A50CD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7149481816B8969A00A50CD3 /* CoreGraphics.framework */; };
+		7149481F16B8969A00A50CD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7149481D16B8969A00A50CD3 /* InfoPlist.strings */; };
+		7149482116B8969A00A50CD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149482016B8969A00A50CD3 /* main.m */; };
+		7149482516B8969A00A50CD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149482416B8969A00A50CD3 /* AppDelegate.m */; };
+		7149482716B8969A00A50CD3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149482616B8969A00A50CD3 /* Default.png */; };
+		7149482916B8969A00A50CD3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149482816B8969A00A50CD3 /* Default@2x.png */; };
+		7149482B16B8969A00A50CD3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149482A16B8969A00A50CD3 /* Default-568h@2x.png */; };
+		7149482E16B8969A00A50CD3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7149482C16B8969A00A50CD3 /* MainStoryboard_iPhone.storyboard */; };
+		7149483116B8969A00A50CD3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7149482F16B8969A00A50CD3 /* MainStoryboard_iPad.storyboard */; };
+		7149483416B8969A00A50CD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149483316B8969A00A50CD3 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7149481016B8969A00A50CD3 /* LendoXMLGloboEsporteVasco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LendoXMLGloboEsporteVasco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7149481416B8969A00A50CD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7149481616B8969A00A50CD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7149481816B8969A00A50CD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7149481C16B8969A00A50CD3 /* LendoXMLGloboEsporteVasco-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LendoXMLGloboEsporteVasco-Info.plist"; sourceTree = "<group>"; };
+		7149481E16B8969A00A50CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7149482016B8969A00A50CD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7149482216B8969A00A50CD3 /* LendoXMLGloboEsporteVasco-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LendoXMLGloboEsporteVasco-Prefix.pch"; sourceTree = "<group>"; };
+		7149482316B8969A00A50CD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7149482416B8969A00A50CD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7149482616B8969A00A50CD3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7149482816B8969A00A50CD3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7149482A16B8969A00A50CD3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7149482D16B8969A00A50CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7149483016B8969A00A50CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7149483216B8969A00A50CD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7149483316B8969A00A50CD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7149480D16B8969A00A50CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7149481516B8969A00A50CD3 /* UIKit.framework in Frameworks */,
+				7149481716B8969A00A50CD3 /* Foundation.framework in Frameworks */,
+				7149481916B8969A00A50CD3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7149480516B8969A00A50CD3 = {
+			isa = PBXGroup;
+			children = (
+				7149481A16B8969A00A50CD3 /* LendoXMLGloboEsporteVasco */,
+				7149481316B8969A00A50CD3 /* Frameworks */,
+				7149481116B8969A00A50CD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7149481116B8969A00A50CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7149481016B8969A00A50CD3 /* LendoXMLGloboEsporteVasco.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7149481316B8969A00A50CD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7149481416B8969A00A50CD3 /* UIKit.framework */,
+				7149481616B8969A00A50CD3 /* Foundation.framework */,
+				7149481816B8969A00A50CD3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7149481A16B8969A00A50CD3 /* LendoXMLGloboEsporteVasco */ = {
+			isa = PBXGroup;
+			children = (
+				7149482316B8969A00A50CD3 /* AppDelegate.h */,
+				7149482416B8969A00A50CD3 /* AppDelegate.m */,
+				7149482C16B8969A00A50CD3 /* MainStoryboard_iPhone.storyboard */,
+				7149482F16B8969A00A50CD3 /* MainStoryboard_iPad.storyboard */,
+				7149483216B8969A00A50CD3 /* ViewController.h */,
+				7149483316B8969A00A50CD3 /* ViewController.m */,
+				7149481B16B8969A00A50CD3 /* Supporting Files */,
+			);
+			path = LendoXMLGloboEsporteVasco;
+			sourceTree = "<group>";
+		};
+		7149481B16B8969A00A50CD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7149481C16B8969A00A50CD3 /* LendoXMLGloboEsporteVasco-Info.plist */,
+				7149481D16B8969A00A50CD3 /* InfoPlist.strings */,
+				7149482016B8969A00A50CD3 /* main.m */,
+				7149482216B8969A00A50CD3 /* LendoXMLGloboEsporteVasco-Prefix.pch */,
+				7149482616B8969A00A50CD3 /* Default.png */,
+				7149482816B8969A00A50CD3 /* Default@2x.png */,
+				7149482A16B8969A00A50CD3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7149480F16B8969A00A50CD3 /* LendoXMLGloboEsporteVasco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7149483716B8969A00A50CD3 /* Build configuration list for PBXNativeTarget "LendoXMLGloboEsporteVasco" */;
+			buildPhases = (
+				7149480C16B8969A00A50CD3 /* Sources */,
+				7149480D16B8969A00A50CD3 /* Frameworks */,
+				7149480E16B8969A00A50CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LendoXMLGloboEsporteVasco;
+			productName = LendoXMLGloboEsporteVasco;
+			productReference = 7149481016B8969A00A50CD3 /* LendoXMLGloboEsporteVasco.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7149480716B8969A00A50CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Fábio Nogueira ";
+			};
+			buildConfigurationList = 7149480A16B8969A00A50CD3 /* Build configuration list for PBXProject "LendoXMLGloboEsporteVasco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7149480516B8969A00A50CD3;
+			productRefGroup = 7149481116B8969A00A50CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7149480F16B8969A00A50CD3 /* LendoXMLGloboEsporteVasco */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7149480E16B8969A00A50CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7149481F16B8969A00A50CD3 /* InfoPlist.strings in Resources */,
+				7149482716B8969A00A50CD3 /* Default.png in Resources */,
+				7149482916B8969A00A50CD3 /* Default@2x.png in Resources */,
+				7149482B16B8969A00A50CD3 /* Default-568h@2x.png in Resources */,
+				7149482E16B8969A00A50CD3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7149483116B8969A00A50CD3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7149480C16B8969A00A50CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7149482116B8969A00A50CD3 /* main.m in Sources */,
+				7149482516B8969A00A50CD3 /* AppDelegate.m in Sources */,
+				7149483416B8969A00A50CD3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7149481D16B8969A00A50CD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7149481E16B8969A00A50CD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7149482C16B8969A00A50CD3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7149482D16B8969A00A50CD3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7149482F16B8969A00A50CD3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7149483016B8969A00A50CD3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7149483516B8969A00A50CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7149483616B8969A00A50CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7149483816B8969A00A50CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LendoXMLGloboEsporteVasco/LendoXMLGloboEsporteVasco-Prefix.pch";
+				INFOPLIST_FILE = "LendoXMLGloboEsporteVasco/LendoXMLGloboEsporteVasco-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7149483916B8969A00A50CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LendoXMLGloboEsporteVasco/LendoXMLGloboEsporteVasco-Prefix.pch";
+				INFOPLIST_FILE = "LendoXMLGloboEsporteVasco/LendoXMLGloboEsporteVasco-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7149480A16B8969A00A50CD3 /* Build configuration list for PBXProject "LendoXMLGloboEsporteVasco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7149483516B8969A00A50CD3 /* Debug */,
+				7149483616B8969A00A50CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7149483716B8969A00A50CD3 /* Build configuration list for PBXNativeTarget "LendoXMLGloboEsporteVasco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7149483816B8969A00A50CD3 /* Debug */,
+				7149483916B8969A00A50CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7149480716B8969A00A50CD3 /* Project object */;
+}

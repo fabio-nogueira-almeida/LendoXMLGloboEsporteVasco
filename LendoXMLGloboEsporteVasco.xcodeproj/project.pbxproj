@@ -18,7 +18,9 @@
 		7149482B16B8969A00A50CD3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149482A16B8969A00A50CD3 /* Default-568h@2x.png */; };
 		7149482E16B8969A00A50CD3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7149482C16B8969A00A50CD3 /* MainStoryboard_iPhone.storyboard */; };
 		7149483116B8969A00A50CD3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7149482F16B8969A00A50CD3 /* MainStoryboard_iPad.storyboard */; };
-		7149483416B8969A00A50CD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149483316B8969A00A50CD3 /* ViewController.m */; };
+		7154568C16B9E773004AC08D /* MasterTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7154568B16B9E773004AC08D /* MasterTableController.m */; };
+		7154568F16B9E780004AC08D /* Vasco.m in Sources */ = {isa = PBXBuildFile; fileRef = 7154568E16B9E780004AC08D /* Vasco.m */; };
+		7154569216B9E855004AC08D /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7154569116B9E855004AC08D /* Parser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +39,12 @@
 		7149482A16B8969A00A50CD3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7149482D16B8969A00A50CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		7149483016B8969A00A50CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		7149483216B8969A00A50CD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7149483316B8969A00A50CD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7154568A16B9E773004AC08D /* MasterTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableController.h; sourceTree = "<group>"; };
+		7154568B16B9E773004AC08D /* MasterTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableController.m; sourceTree = "<group>"; };
+		7154568D16B9E780004AC08D /* Vasco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vasco.h; sourceTree = "<group>"; };
+		7154568E16B9E780004AC08D /* Vasco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vasco.m; sourceTree = "<group>"; };
+		7154569016B9E855004AC08D /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		7154569116B9E855004AC08D /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +95,12 @@
 				7149482416B8969A00A50CD3 /* AppDelegate.m */,
 				7149482C16B8969A00A50CD3 /* MainStoryboard_iPhone.storyboard */,
 				7149482F16B8969A00A50CD3 /* MainStoryboard_iPad.storyboard */,
-				7149483216B8969A00A50CD3 /* ViewController.h */,
-				7149483316B8969A00A50CD3 /* ViewController.m */,
+				7154568A16B9E773004AC08D /* MasterTableController.h */,
+				7154568B16B9E773004AC08D /* MasterTableController.m */,
+				7154568D16B9E780004AC08D /* Vasco.h */,
+				7154568E16B9E780004AC08D /* Vasco.m */,
+				7154569016B9E855004AC08D /* Parser.h */,
+				7154569116B9E855004AC08D /* Parser.m */,
 				7149481B16B8969A00A50CD3 /* Supporting Files */,
 			);
 			path = LendoXMLGloboEsporteVasco;
@@ -179,7 +189,9 @@
 			files = (
 				7149482116B8969A00A50CD3 /* main.m in Sources */,
 				7149482516B8969A00A50CD3 /* AppDelegate.m in Sources */,
-				7149483416B8969A00A50CD3 /* ViewController.m in Sources */,
+				7154568C16B9E773004AC08D /* MasterTableController.m in Sources */,
+				7154568F16B9E780004AC08D /* Vasco.m in Sources */,
+				7154569216B9E855004AC08D /* Parser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +318,7 @@
 				7149483916B8969A00A50CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
